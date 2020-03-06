@@ -12,7 +12,9 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_margin="18dp"
         android:text="口罩供需即時資訊查詢 備註資料來源: 全民健康保險特約院所固定服務時段"
-        android:layout_margin="20dp"
-        android:textSize="30sp" />
+        android:textColor="@color/colorWords"
+        android:textSize="30sp"
+        app:lineHeight="40sp" />
 </LinearLayout>
